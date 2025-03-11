@@ -2,19 +2,19 @@
 const posts = [
   {
     id: 1,
-    username: 'traveler_jane',
+    username: 'xXBrigateRed08Xx',
     userAvatar: 'https://randomuser.me/api/portraits/women/12.jpg',
-    location: 'Bali, Indonesia',
+    location: 'via Caetani',
     mediaType: 'image',
     media: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4',
-    caption: 'Paradise found 🌴 #bali #vacation #paradise',
-    likes: 1243,
+    caption: 'Ho appena rapito Aldo Moro #GiuseppeVerde #BrigateRosse',
+    likes: 696969,
     isLiked: false,
     comments: [
-      { username: 'travel_lover', text: 'This looks amazing! 😍' },
-      { username: 'photo_enthusiast', text: 'Great shot! What camera did you use?' }
+      { username: 'travel_lover', text: 'Viva il comunismo! 😍' },
+      { username: 'photo_enthusiast', text: 'Bastardi terroristi!' }
     ],
-    timePosted: '2 HOURS AGO'
+    timePosted: '16 marzo 1978'
   },
   {
     id: 2,
