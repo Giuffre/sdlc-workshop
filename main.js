@@ -6,7 +6,7 @@ const posts = [
     userAvatar: 'https://randomuser.me/api/portraits/women/12.jpg',
     location: 'via Caetani',
     mediaType: 'image',
-    media: 'https://www.agi.it/cronaca/news/2018-03-16/anniversario_morte_aldo_moro-3631807/',
+    media: 'https://www.google.com/imgres?q=aldo%20moro%20webp%20image&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F70%2FAldo_Moro_br.jpg%2F518px-Aldo_Moro_br.jpg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAldo_Moro_br.jpg&docid=IimfYNp9Nw1ROM&tbnid=PBYuGVpUBVtMAM&vet=12ahUKEwiw3b2mtIKMAxX17AIHHQuzGB0QM3oECFEQAA..i&w=518&h=600&hcb=2&ved=2ahUKEwiw3b2mtIKMAxX17AIHHQuzGB0QM3oECFEQAA/',
     caption: 'Ho appena rapito Aldo Moro a 100k like svelo la macchina #GiuseppeVerde #BrigateRosse', //
     likes: 696969,
     isLiked: false,
@@ -22,7 +22,7 @@ const posts = [
     userAvatar: 'https://cdn.nba.com/teams/uploads/sites/1610612747/2024/03/james-40k-celebrate-240303-1000x1500-LAL_social_watermark_1080x1350-1.jpg?im=Resize=(640)',
     location: 'Los Angeles',
     mediaType: 'image',
-    media: 'https://www.facebook.com/photo/?fbid=3610194952335925&set=a.678816935473756&__cft__[0]=AZVbEb-2HPPxOKdfVkx-0ZzIkKBjJppEU9_Teh-x8GrvijLtHHwuTQ3fllIIAiYpHSUDaUyugZlbgxZcReAV-g_QSS62DHQldFF_LWznXCtdnfJ3BcJ7zMGGJ8-Ek6zQrGApRb2yOTzzJkEXXCh-zRF4qQOPCgO-Rt3knnam5K6K1A&__tn__=EH-R',
+    media: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fworld-44106321&psig=AOvVaw1urTwy9gsXlwubISsWZIiF&ust=1741795543571000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDDz5a0gowDFQAAAAAdAAAAABAE',
     caption: 'Working hard with Luka',
     likes: 100000000,
     isLiked: true,
