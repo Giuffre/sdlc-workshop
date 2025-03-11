@@ -7,14 +7,14 @@ const posts = [
     location: 'via Caetani',
     mediaType: 'image',
     media: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4',
-    caption: 'Ho appena rapito Aldo Moro #GiuseppeVerde #BrigateRosse',
+    caption: 'Ho appena rapito Aldo Moro a 100k like svelo la macchina #GiuseppeVerde #BrigateRosse', //
     likes: 696969,
     isLiked: false,
     comments: [
       { username: 'travel_lover', text: 'Viva il comunismo! 😍' },
       { username: 'photo_enthusiast', text: 'Bastardi terroristi!' }
     ],
-    timePosted: '16 marzo 1978'
+    timePosted: '11 marzo 2025'
   },
   {
     id: 2,
