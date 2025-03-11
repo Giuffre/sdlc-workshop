@@ -209,7 +209,7 @@ function renderPosts() {
         <i class="post-action far fa-comment"></i>
         <i class="post-action far fa-paper-plane"></i>
         <i class="post-action bookmark far fa-bookmark"></i>
-        <i class="post-action download" src="${post.media}">Download</i>
+        <!-- <i class="post-action download" src="${post.media}">Download</i> -->
       </div>
       
       <div class="post-likes">${post.likes.toLocaleString()} likes</div>
