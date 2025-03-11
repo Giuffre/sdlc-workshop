@@ -6,30 +6,29 @@ const posts = [
     userAvatar: 'https://randomuser.me/api/portraits/women/12.jpg',
     location: 'via Caetani',
     mediaType: 'image',
-    media: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4',
+    media: 'https://www.agi.it/cronaca/news/2018-03-16/anniversario_morte_aldo_moro-3631807/',
     caption: 'Ho appena rapito Aldo Moro a 100k like svelo la macchina #GiuseppeVerde #BrigateRosse', //
     likes: 696969,
     isLiked: false,
     comments: [
-      { username: 'travel_lover', text: 'Viva il comunismo! 😍' },
-      { username: 'photo_enthusiast', text: 'Bastardi terroristi!' }
+      { username: 'Comunista32', text: 'Viva il comunismo! 😍' },
+      { username: 'ElBornoEgisiano', text: 'Bastardi terroristi!' }
     ],
     timePosted: '11 marzo 2025'
   },
   {
     id: 2,
-    username: 'food_explorer',
-    userAvatar: 'https://randomuser.me/api/portraits/men/32.jpg',
-    location: 'Downtown Cafe',
-    mediaType: 'video',
-    media: 'https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-pizza-being-prepared-22969-large.mp4',
-    thumbnail: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38',
-    caption: 'Best pizza in town! 🍕 #foodie #delicious #pizza',
-    likes: 856,
-    isLiked: false,
+    username: 'LebronJames',
+    userAvatar: 'https://cdn.nba.com/teams/uploads/sites/1610612747/2024/03/james-40k-celebrate-240303-1000x1500-LAL_social_watermark_1080x1350-1.jpg?im=Resize=(640)',
+    location: 'Los Angeles',
+    mediaType: 'image',
+    media: 'https://www.facebook.com/photo/?fbid=3610194952335925&set=a.678816935473756&__cft__[0]=AZVbEb-2HPPxOKdfVkx-0ZzIkKBjJppEU9_Teh-x8GrvijLtHHwuTQ3fllIIAiYpHSUDaUyugZlbgxZcReAV-g_QSS62DHQldFF_LWznXCtdnfJ3BcJ7zMGGJ8-Ek6zQrGApRb2yOTzzJkEXXCh-zRF4qQOPCgO-Rt3knnam5K6K1A&__tn__=EH-R',
+    caption: 'Working hard with Luka',
+    likes: 100000000,
+    isLiked: true,
     comments: [
-      { username: 'pizza_fan', text: 'I need to try this place!' },
-      { username: 'chef_mike', text: 'The crust looks perfect 👌' }
+      { username: 'KingJamesL0v3rrrr', text: 'Thank you daddy Lebronnnnnnnnnn my sunshineeeee' },
+      { username: 'savannah_james', text: 'I want the LeHammer 👌' }
     ],
     timePosted: '5 HOURS AGO'
   },
