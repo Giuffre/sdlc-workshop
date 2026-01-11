@@ -507,7 +507,7 @@ function addEventListeners() {
 
   // Download functionality
   document.querySelectorAll('.download').forEach(downloadButton => {
-    console.log("=== MEDIA URL", downloadButton.getAttribute('src'))
+    console.log('=== MEDIA URL', downloadButton.getAttribute('src'));
     downloadButton.addEventListener('click', () => downloadMedia(downloadButton));
   });
 }
