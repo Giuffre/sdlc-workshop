@@ -1,43 +1,194 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Feed Example</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="app">
-      <!-- Instagram Header -->
-      <div class="instagram-header">
-        <div class="instagram-logo">Instagram</div>
-        <div class="header-icons">
-          <i class="fa-regular fa-paper-plane header-icon"></i>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Feed Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Instagram Header -->
+    <div class="instagram-header">
+      <div class="instagram-logo">Instagram</div>
+      <div class="header-icons">
+        <i class="fa-regular fa-paper-plane header-icon"></i>
       </div>
-      
+    </div>
+
+    <!-- HOME PAGE -->
+    <div class="page active" id="home-page">
       <!-- Stories Container -->
       <div class="stories-container" id="stories-container">
         <!-- Stories will be added here by JavaScript -->
       </div>
-      
+
       <!-- Instagram Feed -->
       <div class="instagram-feed" id="instagram-feed">
         <!-- Posts will be added here by JavaScript -->
       </div>
-      
-      <!-- Bottom Navigation -->
-      <div class="instagram-bottom-nav">
-        <i class="bottom-nav-icon fas fa-home"></i>
-        <i class="bottom-nav-icon fas fa-search"></i>
-        <i class="bottom-nav-icon far fa-plus-square"></i>
-        <i class="bottom-nav-icon far fa-heart"></i>
-        <i class="bottom-nav-icon far fa-user"></i>
+    </div>
+
+    <!-- SEARCH/EXPLORE PAGE -->
+    <div class="page" id="search-page">
+      <div class="search-container">
+        <div class="search-bar">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" placeholder="Search" class="search-input">
+        </div>
+      </div>
+      <div class="explore-grid" id="explore-grid">
+        <!-- Explore posts will be added by JavaScript -->
       </div>
     </div>
-    
-    <script type="module" src="main.js"></script>
-  </body>
+
+    <!-- CREATE POST PAGE -->
+    <div class="page" id="create-page">
+      <div class="create-container">
+        <div class="create-header">
+          <h2 class="create-title">Create New Post</h2>
+        </div>
+        <div class="create-upload-area">
+          <div class="upload-icon-wrapper">
+            <i class="far fa-images upload-icon"></i>
+          </div>
+          <p class="upload-text">Drag photos and videos here</p>
+          <button class="upload-button">Select from computer</button>
+        </div>
+        <div class="create-options">
+          <div class="create-option">
+            <i class="fas fa-camera"></i>
+            <span>Photo</span>
+          </div>
+          <div class="create-option">
+            <i class="fas fa-video"></i>
+            <span>Video</span>
+          </div>
+          <div class="create-option">
+            <i class="fas fa-film"></i>
+            <span>Reel</span>
+          </div>
+          <div class="create-option">
+            <i class="fas fa-broadcast-tower"></i>
+            <span>Live</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ACTIVITY PAGE -->
+    <div class="page" id="activity-page">
+      <div class="activity-container">
+        <h2 class="activity-title">Activity</h2>
+        <div class="activity-section">
+          <h3 class="activity-section-title">Today</h3>
+          <div class="activity-list" id="activity-today">
+            <!-- Activity items will be added by JavaScript -->
+          </div>
+        </div>
+        <div class="activity-section">
+          <h3 class="activity-section-title">This Week</h3>
+          <div class="activity-list" id="activity-week">
+            <!-- Activity items will be added by JavaScript -->
+          </div>
+        </div>
+        <div class="activity-section">
+          <h3 class="activity-section-title">Earlier</h3>
+          <div class="activity-list" id="activity-earlier">
+            <!-- Activity items will be added by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROFILE PAGE -->
+    <div class="page" id="profile-page">
+      <div class="profile-container">
+        <div class="profile-header">
+          <img src="https://randomuser.me/api/portraits/lego/5.jpg" alt="Profile" class="profile-avatar">
+          <div class="profile-stats">
+            <div class="stat">
+              <span class="stat-number">42</span>
+              <span class="stat-label">Posts</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">1.2K</span>
+              <span class="stat-label">Followers</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">348</span>
+              <span class="stat-label">Following</span>
+            </div>
+          </div>
+        </div>
+        <div class="profile-bio">
+          <h2 class="profile-name">Your Name</h2>
+          <p class="profile-username">@your_story</p>
+          <p class="profile-description">Digital creator ✨<br>Photography | Travel | Food<br>📍 Exploring the world one
+            photo at a time</p>
+          <a href="#" class="profile-website">www.yourwebsite.com</a>
+        </div>
+        <div class="profile-actions">
+          <button class="profile-edit-btn">Edit Profile</button>
+          <button class="profile-share-btn"><i class="fas fa-share-alt"></i></button>
+        </div>
+        <div class="profile-tabs">
+          <div class="profile-tab active" data-tab="posts">
+            <i class="fas fa-th"></i>
+          </div>
+          <div class="profile-tab" data-tab="reels">
+            <i class="fas fa-play-circle"></i>
+          </div>
+          <div class="profile-tab" data-tab="tagged">
+            <i class="fas fa-user-tag"></i>
+          </div>
+        </div>
+        <div class="profile-grid" id="profile-grid">
+          <!-- Profile posts will be added by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Story Modal -->
+    <div class="story-modal" id="story-modal">
+      <div class="story-progress-container" id="story-progress-container">
+        <!-- Progress bars will be added by JavaScript -->
+      </div>
+
+      <div class="story-header">
+        <div class="story-header-user">
+          <img src="" alt="User" class="story-header-avatar" id="story-header-avatar">
+          <span class="story-header-username" id="story-header-username">username</span>
+          <span class="story-header-time" id="story-header-time">2h</span>
+        </div>
+        <div class="story-close" id="story-close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+
+      <div class="story-content-container">
+        <img src="" alt="Story" class="story-content-image" id="story-content-image">
+      </div>
+
+      <div class="story-nav prev" id="story-nav-prev"></div>
+      <div class="story-nav next" id="story-nav-next"></div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="instagram-bottom-nav">
+      <i class="bottom-nav-icon fas fa-home active" data-page="home"></i>
+      <i class="bottom-nav-icon fas fa-search" data-page="search"></i>
+      <i class="bottom-nav-icon far fa-plus-square" data-page="create"></i>
+      <i class="bottom-nav-icon far fa-heart" data-page="activity"></i>
+      <i class="bottom-nav-icon far fa-user" data-page="profile"></i>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
 </html>
